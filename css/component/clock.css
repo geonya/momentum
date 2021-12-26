@@ -7,10 +7,11 @@
 
 #datePrint {
   font-size: 0.6vw;
-  letter-spacing: 0.2vw;
+  letter-spacing: 0.26vw;
 }
 
 #timePrint {
-  font-size: 2.8vw;
+  padding-left: 0.6vw;
+  font-size: 2.83vw;
   letter-spacing: 10px;
 }
