@@ -1,0 +1,77 @@
+.bookmark-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 550px;
+  background-color: rgba(256, 256, 256, 0.8);
+  border-radius: 50px;
+  overflow-y: scroll;
+  box-shadow: var(--main-box-shadow);
+  padding: 30px;
+}
+.bookmark-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#bookmark {
+  position: relative;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(147, 147, 162, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 8px;
+  color: var(--grey);
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
+#favicon {
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+#favicon:active {
+  transform: scale(0.9);
+}
+#bookmark span {
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+}
+#bookmark span:active {
+  transform: scale(0.9);
+}
+#bookmark .fa-plus {
+  cursor: pointer;
+  opacity: 0.6;
+}
+#bookmark .fa-plus:active {
+  transform: scale(0.9);
+}
+
+#bookmark #delete {
+  opacity: 0.8;
+  font-size: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+#bookmark #delete:active {
+  transform: scale(0.9);
+}

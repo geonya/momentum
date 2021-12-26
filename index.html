@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My To-Do</title>
+  </head>
+  <body>
+    <header class="header-screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <form id="status-bar__loginform" class="hidden">
+            <input required type="text" placeholder="write your name." />
+            <button>enter</button>
+          </form>
+          <span id="status-bar__greeting" class="hidden"></span>
+        </div>
+        <div class="status-bar__column" id="clock">
+          <div id="datePrint">
+            <span>date</span>
+          </div>
+          <div id="timePrint">
+            <span>time</span>
+          </div>
+        </div>
+        <div class="status-bar__column">
+          <div class="weather-wrap">
+            <div id="country"><span></span></div>
+            <div id="temperature"><span></span></div>
+            <div id="condition"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-screen">
+      <div class="main-screen__column">
+        <div class="bookmark-wrap">
+          <div class="column__title"><h1>Bookmark</h1></div>
+          <div class="bookmark-content">
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+            <div class="bookmark-box" id="bookmark">
+              <div id="delete" class="hidden">❌</div>
+              <div id="plus"><i class="fas fa-plus"></i></div>
+              <div id="favicon" class="hidden"></div>
+              <span class="hidden"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-screen__column">
+        <div class="to-do-div">
+          <div class="column__title"><h1>To-Do List</h1></div>
+          <div class="to-do__low">
+            <div class="to-do-form">
+              <form id="to-do-form">
+                <input required type="text" placeholder="Write your works" />
+                <button>add</button>
+              </form>
+            </div>
+          </div>
+          <div class="to-to__low">
+            <div class="to-do-list">
+              <ul id="to-do-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-screen__column canvas-div">
+        <div class="column__title"><h1>Drawing</h1></div>
+        <div class="main-screen__column--wrap">
+          <div class="canvas-wrap">
+            <canvas id="jsCanvas" class="canvas"> </canvas>
+            <div class="controls__range">
+              <input type="range" id="jsRange" min="0.1" max="20.0" value="2.5" step="0.1" />
+              <!-- value=기본값 -->
+            </div>
+
+            <div class="controls">
+              <div class="controls__btns">
+                <button id="erase">Erase</button>
+                <button id="reset">Reset</button>
+              </div>
+              <div class="controls__btns">
+                <button id="jsMode">Fill</button>
+                <button id="jsSave">Save</button>
+              </div>
+            </div>
+          </div>
+          <div class="controls__colors" id="jsColors">
+            <div class="controls__color jsColor" style="background-color: #2c2c2c"></div>
+            <div class="controls__color jsColor" style="background-color: white"></div>
+            <div class="controls__color jsColor" style="background-color: #ff3b30"></div>
+            <div class="controls__color jsColor" style="background-color: #ff9500"></div>
+            <div class="controls__color jsColor" style="background-color: #ffcc00"></div>
+            <div class="controls__color jsColor" style="background-color: #4cd963"></div>
+            <div class="controls__color jsColor" style="background-color: #5ac8fa"></div>
+            <div class="controls__color jsColor" style="background-color: #0579ff"></div>
+            <div class="controls__color jsColor" style="background-color: #5856d6"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/loginform.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bgimage.js"></script>
+    <script src="js/paint.js"></script>
+    <script src="js/bookmark.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

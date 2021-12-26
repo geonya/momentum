@@ -1,0 +1,13 @@
+input {
+  color: var(--grey);
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+input:not([type="submit"]) {
+  border-bottom: var(--main-border);
+}
+
+input::placeholder {
+  color: var(--grey);
+}

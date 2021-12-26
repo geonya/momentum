@@ -1,0 +1,9 @@
+.bgtable {
+  width: 300px;
+  border: var(--main-border);
+}
+
+.bgtable td {
+  width: 100px;
+  height: 100px;
+}

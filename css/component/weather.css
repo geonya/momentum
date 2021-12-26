@@ -1,0 +1,8 @@
+.weather-wrap {
+  color: var(--grey);
+  width: 80%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

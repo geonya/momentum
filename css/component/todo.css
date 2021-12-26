@@ -1,0 +1,68 @@
+.to-do-div {
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  border-radius: 50px;
+  overflow-y: scroll;
+  box-shadow: var(--main-box-shadow);
+  padding: 30px;
+  background-color: var(--background-white-opacity);
+}
+
+.to-do__low {
+  margin-top: 30px;
+}
+
+.to-do-form {
+  margin-bottom: 10px;
+}
+.to-do-form #to-do-form {
+  display: flex;
+  justify-content: center;
+}
+
+#to-do-form input {
+  color: var(--grey);
+  font-size: 20px;
+  width: 250px;
+  margin-right: 10px;
+}
+.to-do-list {
+  color: var(--grey);
+  font-size: 18px;
+  margin: 20px 0;
+}
+.to-do-list ul li {
+  margin: 10px;
+}
+.to-do-list ul li span {
+  margin-left: 10px;
+}
+
+#to-do-form button {
+  all: unset;
+  cursor: pointer;
+  opacity: none;
+  padding: 5px 5px;
+  width: 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: var(--grey);
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: white;
+}
+#to-do-form button:active {
+  transform: scale(0.95);
+}
+#to-do__btn {
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
