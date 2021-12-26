@@ -6,11 +6,11 @@
 }
 
 #datePrint {
-  font-size: 20px;
+  font-size: 1vw;
   letter-spacing: 3px;
 }
 
 #timePrint {
-  font-size: 50px;
+  font-size: 3vw;
   letter-spacing: 10px;
 }

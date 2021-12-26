@@ -9,7 +9,7 @@ const reset = document.getElementById("reset");
 const drawRect = document.getElementById("drawRect");
 
 const INITIAL_COLOR = "#2c2c2c";
-const CANVAS_SIZE = 250;
+const CANVAS_SIZE = (document.documentElement.clientWidth * 16) / 100;
 
 // canvas api 가동
 let painting = false;
@@ -83,7 +83,7 @@ function handleSaveClick() {
 }
 
 function handleEraseClick() {
-  ctx.strokeStyle = "black";
+  ctx.strokeStyle = "white";
 }
 function handleResetClick() {
   ctx.fillStyle = "white";

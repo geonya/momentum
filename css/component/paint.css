@@ -1,16 +1,7 @@
 .canvas-div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 30px;
-  width: 400px;
-  height: 550px;
-  background-color: rgba(256, 256, 256, 0.8);
-  border-radius: 50px;
-  box-shadow: var(--main-box-shadow);
 }
 .main-screen__column--wrap {
-  margin-top: 30px;
+  margin-top: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -19,35 +10,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .canvas {
-  width: 300px;
-  height: 300px;
+  width: 16vw;
+  height: 16vw;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.5), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .controls {
-  width: 250px;
+  width: 10vw;
   display: flex;
   flex-direction: column;
   align-items: space-around;
 }
 .controls__btns {
-  margin: 10px 0;
+  margin: 0.1vw 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .controls__btns button {
   all: unset;
+  margin: 0.2vw;
+  font-size: 1vw;
   cursor: pointer;
   background-color: white;
-  margin: 0 10px;
-  padding: 5px 5px;
-  width: 90px;
+  width: 5vw;
+  height: 2vw;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -66,14 +59,14 @@ button:active {
 }
 .controls__color {
   margin-bottom: 1px;
-  width: 32px;
-  height: 32px;
+  width: 2vw;
+  height: 2vw;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .controls__range input {
-  width: 200px;
-  margin: 20px 0;
+  width: 13vw;
+  margin: 1vw 0;
 }

@@ -1,9 +1,9 @@
 #quote {
   color: white;
-  padding: 10px 20px;
+  padding: 0.5vw 1vw;
   opacity: 0.9;
   width: 40%;
-  height: 80px;
+  height: 4vw;
   border-radius: 50px;
   background-color: var(--grey);
   display: flex;
@@ -16,11 +16,11 @@
   text-align: center;
 }
 #quote span:first-child {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.2vw;
+  margin-bottom: 0.5vw;
 }
 
 #quote span:last-child {
   opacity: 0.5;
-  font-size: 10px;
+  font-size: 0.5vw;
 }
