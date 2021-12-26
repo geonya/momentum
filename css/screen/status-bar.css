@@ -24,20 +24,25 @@
   align-items: center;
 }
 #status-bar__loginform input {
-  font-size: 30px;
+  color: var(--white-opacity);
+  font-size: 1.4vw;
+  border-bottom: 1px solid var(--white-opacity);
+}
+#status-bar__loginform input::placeholder {
+  color: var(--white-opacity);
 }
 
 #status-bar__loginform button {
   all: unset;
   background-color: var(--background-white-opacity);
-  font-size: 20px;
+  font-size: 1vw;
   cursor: pointer;
-  padding: 5px 5px;
-  width: 80px;
+  padding: 0.6vw 1.4vw;
+  width: 3vw;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  color: var(--grey);
+  color: black;
   text-transform: uppercase;
   font-weight: 600;
 }
