@@ -1,5 +1,5 @@
 .weather-wrap {
-  color: var(--grey);
+  color: var(--white-opacity);
   width: 100%;
   font-size: 1vw;
   display: flex;

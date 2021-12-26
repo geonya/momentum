@@ -1,5 +1,5 @@
 #clock {
-  color: var(--grey);
+  color: var(--white-opacity);
   display: flex;
   flex-direction: column;
   align-items: center;
