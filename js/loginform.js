@@ -23,5 +23,5 @@ function handleSubmit(event) {
 
 function printGreeting(username) {
   greeting.classList.remove(HIDDEN_CLASSNAME);
-  greeting.innerText = `Have a good day ${username}`;
+  greeting.innerText = `Have a Good Day '${username}' 😃`;
 }
