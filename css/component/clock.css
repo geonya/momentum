@@ -6,12 +6,11 @@
 }
 
 #datePrint {
-  font-size: 0.6vw;
-  letter-spacing: 0.26vw;
+  font-size: 1vh;
+  letter-spacing: 0.5vh;
 }
 
 #timePrint {
-  padding-left: 0.6vw;
-  font-size: 2.83vw;
-  letter-spacing: 10px;
+  font-size: 6vh;
+  letter-spacing: 1vh;
 }
