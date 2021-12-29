@@ -17,7 +17,7 @@ function onGeoOk(position) {
 }
 
 function onGeoError(position) {
-  alert("I can Find you!");
+  alert("I can't Find you!");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

@@ -2,7 +2,7 @@
 }
 
 .to-do__low {
-  margin-top: 2vw;
+  margin-top: 2vh;
 }
 
 .to-do-form {
@@ -15,17 +15,17 @@
 
 #to-do-form input {
   color: var(--grey);
-  font-size: 1.2vw;
-  width: 15vw;
+  font-size: 2vh;
+  width: 200px;
 }
 .to-do-list {
   color: var(--grey);
-  font-size: 1.2vw;
-  margin: 1.4vw 0;
+  font-size: 15px;
+  margin: 2vh 0;
 }
 
 .to-do-list ul li span {
-  margin-left: 0.5vw;
+  margin-left: 10px;
 }
 
 #to-do-form button {
@@ -33,9 +33,10 @@
   font-size: 1vw;
   cursor: pointer;
   opacity: none;
-  margin-left: 1vw;
-  padding: 0.5vw 0.5vw;
-  width: 3.2vw;
+  margin-left: 10px;
+  padding: 5px 5px;
+  width: 50px;
+  height: 25px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -48,7 +49,7 @@
   transform: scale(0.95);
 }
 #to-do__btn {
-  font-size: 1vw;
+  font-size: 10px;
   width: auto;
   height: auto;
   border: none;

@@ -1,7 +1,7 @@
 .canvas-div {
 }
 .main-screen__column--wrap {
-  margin-top: 2.5vw;
+  margin-top: 3vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -14,8 +14,8 @@
 }
 
 .canvas {
-  width: 16vw;
-  height: 16vw;
+  width: 200px;
+  height: 200px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.5), 0 1px 3px rgba(0, 0, 0, 0.1);

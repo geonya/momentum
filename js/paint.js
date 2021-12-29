@@ -9,7 +9,7 @@ const reset = document.getElementById("reset");
 const drawRect = document.getElementById("drawRect");
 
 const INITIAL_COLOR = "#2c2c2c";
-const CANVAS_SIZE = (document.documentElement.clientWidth * 16) / 100;
+const CANVAS_SIZE = 200;
 
 // canvas api 가동
 let painting = false;
