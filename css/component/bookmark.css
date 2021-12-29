@@ -25,9 +25,9 @@
 }
 
 #favicon {
-  margin: 2vw 0 1vw 0;
-  width: 5vw;
-  height: 5vw;
+  margin: 10px 0 2px 0;
+  width: 20px;
+  height: 20px;
   background-size: cover;
 
   cursor: pointer;
@@ -45,7 +45,7 @@
   transform: scale(0.9);
 }
 #bookmark .fa-plus {
-  font-size: 3vh;
+  font-size: 20px;
   cursor: pointer;
   opacity: 0.6;
 }
