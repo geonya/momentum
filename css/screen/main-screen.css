@@ -12,11 +12,11 @@
   height: 3vh;
   text-align: center;
   margin: 1vw 0;
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 
 .main-screen__column {
-  margin: 5vh 0;
+  margin: 2vh 0;
   display: flex;
   flex-direction: column;
   align-items: center;

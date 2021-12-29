@@ -15,7 +15,7 @@
 
 #to-do-form input {
   color: var(--grey);
-  font-size: 2vh;
+  font-size: 2.5vh;
   width: 200px;
 }
 .to-do-list {
@@ -30,7 +30,7 @@
 
 #to-do-form button {
   all: unset;
-  font-size: 1vw;
+  font-size: 2vh;
   cursor: pointer;
   opacity: none;
   margin-left: 10px;

@@ -1,7 +1,7 @@
 .canvas-div {
 }
 .main-screen__column--wrap {
-  margin-top: 3vh;
+  margin-top: 1.5vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -22,25 +22,25 @@
 }
 
 .controls {
-  width: 10vw;
+  width: 200px;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: center;
 }
 .controls__btns {
-  margin: 0.1vw 0;
+  margin: 3px 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .controls__btns button {
   all: unset;
-  margin: 0.2vw;
-  font-size: 1vw;
+  margin: 0.5vh;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
-  width: 5vw;
-  height: 2vw;
+  width: 70px;
+  height: 30px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -59,14 +59,14 @@ button:active {
 }
 .controls__color {
   margin-bottom: 1px;
-  width: 2vw;
-  height: 2vw;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .controls__range input {
-  width: 13vw;
-  margin: 1vw 0;
+  width: 150px;
+  margin: 15px 0 5px 0;
 }
