@@ -25,9 +25,9 @@
 }
 
 #favicon {
-  margin: 2vh 0 1vh 0;
-  width: 4vh;
-  height: 4vh;
+  margin: 2vw 0 1vw 0;
+  width: 5vw;
+  height: 5vw;
   background-size: cover;
 
   cursor: pointer;
